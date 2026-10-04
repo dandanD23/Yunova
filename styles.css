@@ -209,9 +209,12 @@ details p{max-width:780px;margin:-8px 0 26px;color:#8d969f;line-height:1.75;font
 .contact-card{border:1px solid #2a3037;border-radius:30px;padding:64px;display:grid;grid-template-columns:1fr .85fr;gap:70px;background:linear-gradient(135deg,#13171c,#0e1114)}
 .contact-card h2{margin-top:18px}
 .contact-note{margin:28px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0}
-.contact-note span,.contact-note strong{display:block}
+.contact-note span,.contact-note strong,.contact-note small{display:block}
 .contact-note span{font-size:10px;color:#6f7881;text-transform:uppercase;letter-spacing:.15em;margin-bottom:7px}
-.contact-note strong{font-size:13px;line-height:1.5;color:#c2c8ce}
+.contact-note strong{font-size:22px;line-height:1.35;color:#f1f3f5}
+.contact-note strong a{transition:color .2s}
+.contact-note strong a:hover{color:var(--accent)}
+.contact-note small{margin-top:7px;font-size:11px;line-height:1.55;color:#737c85}
 .disabled-link{opacity:.55;pointer-events:none}
 
 footer{border-top:1px solid var(--line);padding:32px 0 40px;background:#090b0d}
